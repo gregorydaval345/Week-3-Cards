@@ -8,6 +8,26 @@ public class Card {
 
 
     public Card(int nunmber, String suite) {
-
+        super();
+        this.number = number;
+        this.suite = suite;
     }
+    public int getNumber() {
+        return number;
+    }
+    public void setNumber(int number) {
+        this.number = number;
+    }
+    public String getSuite() {
+        return suite;
+    }
+    public void setSuite(String suite){
+        this.suite = suite;
+    }
+    @Override
+    public String toString() {
+        return "Card [number=" + number + ", suite=" + suite + "]";
+    }
+
+
 }

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33cabb9e-8f42-4a9b-90c4-5e2075c16e3d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/week3cards/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/week3cards/src/main/java/Card.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/week3cards/src/main/java/CardDatabase.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/week3cards/src/main/java/Driver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/week3cards/src/main/java/IDatabase.java" />
+      <change beforePath="$PROJECT_DIR$/week3cards/src/main/java/Card.java" afterPath="$PROJECT_DIR$/week3cards/src/main/java/Card.java" />
+      <change beforePath="$PROJECT_DIR$/week3cards/src/main/java/CardDatabase.java" afterPath="$PROJECT_DIR$/week3cards/src/main/java/CardDatabase.java" />
+      <change beforePath="$PROJECT_DIR$/week3cards/src/main/java/Driver.java" afterPath="$PROJECT_DIR$/week3cards/src/main/java/Driver.java" />
     </list>
     <ignored path="$PROJECT_DIR$/week3cards/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +29,21 @@
       <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week3cards/src/main/java/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#89#90#0" expanded="true" />
                 <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,13 +52,9 @@
       <file leaf-file-name="CardDatabase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week3cards/src/main/java/CardDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="585">
+              <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,9 +101,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/week3cards/src/main/java/IDatabase.java" />
+        <option value="$PROJECT_DIR$/week3cards/src/main/java/Driver.java" />
         <option value="$PROJECT_DIR$/week3cards/src/main/java/Card.java" />
         <option value="$PROJECT_DIR$/week3cards/src/main/java/CardDatabase.java" />
-        <option value="$PROJECT_DIR$/week3cards/src/main/java/Driver.java" />
       </list>
     </option>
   </component>
@@ -335,12 +337,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548706208148</updated>
-      <workItem from="1548706210072" duration="1126000" />
+      <workItem from="1548706210072" duration="2357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1126000" />
+    <option name="totallyTimeSpent" value="2357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="997" height="1050" extended-state="6" />
@@ -401,17 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week3cards/src/main/java/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#115#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week3cards/src/main/java/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -420,15 +411,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/week3cards/src/main/java/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/week3cards/src/main/java/CardDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="585">
+          <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

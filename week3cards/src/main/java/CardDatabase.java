@@ -1,6 +1,4 @@
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
+import java.io.*;
 
 public class CardDatabase implements IDatabase<Card>{
 
@@ -21,10 +19,29 @@ public class CardDatabase implements IDatabase<Card>{
                 ex.printStackTrace();
             }
         }
-        return false;
+        return success;
     }
 
     public Card readFirstRecord() {
-        return null;
+        Card data = null;
+        ObjectInputStream ois = null;
+
+        try {
+            ois = new ObjectInputStream(new FileInputStream(DB_NAME));
+            data = (Card) ois.readObject();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }finally {
+            try{
+                if(ois!= null)ois.close();
+            }catch (IOException ex){
+                ex.printStackTrace();
+            }
+        }
+        return data;
     }
 }
