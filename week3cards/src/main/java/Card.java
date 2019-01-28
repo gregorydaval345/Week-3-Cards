@@ -9,7 +9,7 @@ public class Card implements Serializable {
     }
 
 
-    public Card(int nunmber, String suite) {
+    public Card(int number, String suite) {
         super();
         this.number = number;
         this.suite = suite;
